@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rvertnet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rvertnet/rvertnet_{{ version }}.tar.gz
-  sha256: f6e6ff9691524db9e40f894755fa6ff7d5cb077288754b09a19e04cbbe7f13c9
+  sha256: 2de9a3ec33a213c7592b49cca1d510a25aef0625369376d9b1b4e5d0da519226
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -47,10 +47,8 @@ about:
   home: https://github.com/ropensci/rvertnet
   license: MIT
   license_file: LICENSE
-  summary: Retrieve, map and summarize data from the 'VertNet.org'  archives (<http://vertnet.org/>).  Functions
-    allow searching by many  parameters, including 'taxonomic' names, places, and dates.
-    In addition,  there is an interface for conducting spatially delimited searches,
-    and  another for requesting large 'datasets' via email.
+  summary: Retrieve, map and summarize data from the 'VertNet.org'  archives (<http://vertnet.org/>).  Functions allow searching by many  parameters, including 'taxonomic' names, places, and dates. In addition,  there is an interface for conducting spatially delimited searches, and  another for requesting large 'datasets'
+    via email.
   license_family: MIT
 
 extra:
