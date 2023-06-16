@@ -1,11 +1,11 @@
-About r-rvertnet
-================
+About r-rvertnet-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rvertnet-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/rvertnet
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rvertnet-feedstock/blob/main/LICENSE.txt)
 
 Summary: Retrieve, map and summarize data from the 'VertNet.org'  archives (<http://vertnet.org/>).  Functions allow searching by many  parameters, including 'taxonomic' names, places, and dates. In addition,  there is an interface for conducting spatially delimited searches, and  another for requesting large 'datasets' via email.
 
